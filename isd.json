@@ -1,0 +1,19 @@
+{
+    "name": "ISD Blockchain",
+    "shortName": "ISD",
+    "chain": "ISD",
+    "chainId": 7832,
+    "networkId": 7832,
+    "rpc": ["https://rpc.isdblockchain.net"],
+    "slip44": 7832,
+    "nativeCurrency": {
+        "name": "ISD Coin",
+        "symbol": "ISD",
+        "decimals": 18
+    },
+    "explorers": [{
+        "name": "ISD Explorer",
+        "url": "https://explorer.isdblockchain.net",
+        "standard": "EIP3091"
+    }]
+}
