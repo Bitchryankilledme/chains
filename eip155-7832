@@ -1,0 +1,25 @@
+{
+    "name": "ISD Network",
+    "chain": "ISD",
+    "rpc": ["https://rpc.isd-network.com"],
+    "nativeCurrency": {
+        "name": "ISD Token",
+        "symbol": "ISD",
+        "decimals": 18
+    },
+    "infoURL": "https://isd-blockchain.com",
+    "shortName": "isd",
+    "chainId": 7832,
+    "networkId": 7832,
+    "hybridMode": true,
+    "privateLayer": {
+        "enabled": true,
+        "accessControl": "whitelist",
+        "cloakTransactions": true,
+        "encryption": "AES-256"
+    },
+    "publicLayer": {
+        "enabled": true,
+        "transactionVisibility": "limited"
+    }
+}
